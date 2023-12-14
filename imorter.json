@@ -1,19 +1,19 @@
 {
-    "id": "dsw:rdf-importer:0.1.0",
-    "importerId": "rdf-importer",
-    "organizationId": "dsw",
-    "version": "0.1.0",
-    "name": "RDF Importer",
-    "description": "Import form RDF",
-    "license": "Apache-2.0",
-    "metamodelVersion": 1,
-    "allowedPackages": [
-      {
-        "orgId": null,
-        "kmId": null,
-        "minVersion": null,
-        "maxVersion": null
-      }
-    ],
-    "url": "http://localhost:5000"
-  }
+  "id": "dsw:rdf-importer:0.1.0",
+  "importerId": "rdf-importer",
+  "organizationId": "dsw",
+  "version": "0.1.0",
+  "name": "RDF Importer",
+  "description": "Import form RDF",
+  "license": "Apache-2.0",
+  "metamodelVersion": 1,
+  "allowedPackages": [
+    {
+      "orgId": null,
+      "kmId": null,
+      "minVersion": null,
+      "maxVersion": null
+    }
+  ],
+  "url": "http://localhost:5000"
+}
