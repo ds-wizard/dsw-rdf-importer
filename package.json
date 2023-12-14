@@ -16,6 +16,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "@ds-wizard/integration-sdk": "^1.0.0"
+    "@ds-wizard/integration-sdk": "^1.0.0",
+    "rdflib": "^2.2.33"
   }
 }

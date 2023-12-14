@@ -15,12 +15,21 @@ module.exports = {
             ],
         }),
     ],
+    resolve: {
+        fallback: {
+            url: false
+        }
+    },
     devServer: {
-        open: true,
         static: {
             directory: path.join(__dirname, '/')
         },
         port: 5000,
         host: 'localhost',
+    },
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
     },
 }
